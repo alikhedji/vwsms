@@ -26,3 +26,10 @@ client.messages.create({
    from: '+18444782530',
    body: 'votre reservation a été bien prise en compte',
 });
+
+http = require('http');
+http.createServer(function (req, res) {
+res.writeHead(200, {'Content-Type': 'text/plain'});
+res.end('Votre message est bien envoyé!\n');
+}).listen(3000);
+console.log('Server running at port 3000');
