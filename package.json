@@ -2,6 +2,10 @@
   "name": "sms",
   "version": "1.0.0",
   "description": "",
+
+  "name": "vwsms",
+  "version": "1.0.0",
+  "description": "poc sending sms",
   "main": "twilio.js",
   "dependencies": {
     "twilio": "^3.13.0"
