@@ -26,7 +26,7 @@ client.messages.create({
    from: '+18444782530',
    body: 'votre reservation a été bien prise en compte',
 });
-
+console.log("ici");
 http = require('http');
 http.createServer(function (req, res) {
 res.writeHead(200, {'Content-Type': 'text/plain'});
